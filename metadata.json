@@ -1,0 +1,5 @@
+{
+  "name": "Meta Pixel Ad Redirector",
+  "description": "A high-performance bridge page designed for ad redirection with integrated Meta Pixel tracking (Browser + CAPI ready layout) to ensure maximum data retention before forwarding users to the final sales page.",
+  "requestFramePermissions": []
+}
