@@ -4,7 +4,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Redirecionando...</title>
+    <title>Verificando Acesso...</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Meta Pixel Code -->
     <script>
@@ -20,22 +20,25 @@
       fbq('track', 'PageView');
     </script>
     <!-- End Meta Pixel Code -->
-  <script type="importmap">
+    <script type="importmap">
 {
   "imports": {
-    "react": "https://esm.sh/react@^19.2.3",
+    "react": "https://esm.sh/react@19.0.0",
+    "react-dom": "https://esm.sh/react-dom@19.0.0",
+    "react-dom/client": "https://esm.sh/react-dom@19.0.0/client",
+    "lucide-react": "https://esm.sh/lucide-react@0.460.0",
     "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
-    "react/": "https://esm.sh/react@^19.2.3/",
-    "lucide-react": "https://esm.sh/lucide-react@^0.562.0"
+    "react/": "https://esm.sh/react@^19.2.3/"
   }
 }
 </script>
-</head>
-  <body class="bg-slate-50">
+  </head>
+  <body class="bg-[#070b14]">
     <noscript>
       <img height="1" width="1" style="display:none"
            src="https://www.facebook.com/tr?id=3871211583173422&ev=PageView&noscript=1"/>
     </noscript>
     <div id="root"></div>
+    <script type="module" src="index.tsx"></script>
   </body>
 </html>
